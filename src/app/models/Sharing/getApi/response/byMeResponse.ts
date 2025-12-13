@@ -1,9 +1,5 @@
+import { CommonUserShareResponse } from "../commonUserShareResponse";
+
 export interface ByMeResponse {
-    itemId: number;
-    itemName: string;
-    itemType: string;
-    ownerId: number;
-    ownerName: string;
-    permission: number;
-    sharedOn: Date;
+    commonUserShareResponse: CommonUserShareResponse;
 }
