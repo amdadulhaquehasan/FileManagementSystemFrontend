@@ -1,5 +1,5 @@
 import { BaseAuthenticationResponse } from "../baseAuthenticationResponse";
 
-export interface refreshTokenResponse {
+export interface RefreshTokenResponse {
     baseAuthenticationResponse: BaseAuthenticationResponse;
 }
